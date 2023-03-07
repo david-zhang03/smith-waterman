@@ -49,7 +49,7 @@ def runSW(inputFile, scoreFile, openGap, extGap):
 
     # Secondary sequence 
     sseq = seqFilter(seqs[1]) 
-    scoreMatrix, backTrace, max_score, max_index = SW(simMatrix, refSeq, sseq, openGap, extGap) 
+    scoreMatrix, backTrace, max_score, max_index = SW(simMatrix, refSeq, sseq, int(openGap), int(extGap)) 
 
     # Write to file 
 
