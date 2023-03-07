@@ -51,7 +51,7 @@ Z  -1  2 -4  2  5  -3 -2  0 -3  1  -3 -2  0 -1  2   0  0 -1 -2 -3  -1 -2  5
 
 The generated output file will be named `output-ddz5.txt` and will contain 1) inputted sequences, 2) score matrix, and 3) best alignment output and alignment score 
 
-Below is an example output: 
+Below is an example output generated from running the example inputs above: 
 <pre>
 -----------
 |Sequences|
